@@ -3,7 +3,9 @@
 
 Representational state transfer.
 
-Client and API. Requests and responses.
+Client <-> Resources <-> API.
+
+Requests and responses.
 
 
 REST is a design pattern, not a standard.
@@ -13,7 +15,7 @@ Guidelines on how to build your API.
 
 
 Verbs/methods:
-- GET
+- GET: 
 - POST
 - PUT
 - PATCH
