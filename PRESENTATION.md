@@ -8,6 +8,7 @@ Client <-> Resource <-> API.
 
 Requests and responses.
 
+Perform CRUD operations on resources.
 
 REST is a design pattern, not a standard.
 
@@ -16,7 +17,7 @@ Guidelines on how to build your API.
 
 
 Verbs/methods:
-- GET: 
+- GET: Read
 - POST
 - PUT
 - PATCH
