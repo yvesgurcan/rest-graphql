@@ -1,14 +1,18 @@
 
 # What is REST?
 
-Represenatational state transfer.
+Representational state transfer.
+
+Client and API. Requests and responses.
+
 
 REST is a design pattern, not a standard.
 
 
 Guidelines on how to build your API.
 
-Most common verbs/methods:
+
+Verbs/methods:
 - GET
 - POST
 - PUT
@@ -51,3 +55,4 @@ HTTP status codes:
 - https://medium.com/extend/what-is-rest-a-simple-explanation-for-beginners-part-2-rest-constraints-129a4b69a582
 - 
 https://www.restapitutorial.com/httpstatuscodes.html
+- Postman
