@@ -3,7 +3,8 @@
 
 Representational state transfer.
 
-Client <-> Resources <-> API.
+3 components:
+Client <-> Resource <-> API.
 
 Requests and responses.
 
