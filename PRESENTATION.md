@@ -16,14 +16,14 @@ REST is a design pattern, not a standard.
 Guidelines on how to build your API.
 
 
-Verbs/methods:
+## Verbs/methods
 - GET: Read
 - POST: Create
 - PUT: Edit (replace)
 - PATCH: Edit (modify)
 - DELETE: Delete
 
-HTTP status codes:
+## HTTP status codes
 - 1xx: Informational
   - 100: Continue
 - 2xx: Success
