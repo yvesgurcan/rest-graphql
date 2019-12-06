@@ -3,6 +3,8 @@ import styled from 'styled-components';
 
 import Container from '../components/Container';
 import Heading from '../components/Heading';
+import BulletList from '../components/BulletList';
+import Bullet from '../components/Bullet';
 
 const ANSWER = ['Representational', 'state', 'transfer'];
 
@@ -27,8 +29,9 @@ export default class Home extends Component {
     render() {
         return (
             <Container>
-                <Heading>What does REST mean?</Heading>
-                
+                <BulletList>
+                    <Bullet></Bullet>
+                </BulletList>
             </Container>
         );
     }
