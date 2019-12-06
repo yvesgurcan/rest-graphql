@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import Container from '../components/Container';
-import Heading from '../components/Heading';
+import Container from '../../components/Container';
+import Heading from '../../components/Heading.js';
 
 const ANSWER = ['Representational', 'state', 'transfer'];
 
-export default class Home extends Component {
+export default class Acronym extends Component {
     state = { hideText: ANSWER.map(_ => true) };
 
     onClick = index => {
@@ -26,8 +26,8 @@ export default class Home extends Component {
 
     render() {
         return (
-            <Container>
-                <Heading>What does REST mean?</Heading>
+            <Container back="/" next="/rest/definition">
+                <Heading>What does REST stand for?</Heading>
                 <AnswerContainer>
                     {ANSWER.map((word, index) => (
                         <Blank
@@ -43,7 +43,6 @@ export default class Home extends Component {
         );
     }
 }
-
 
 const AnswerContainer = styled.div`
     display: flex;

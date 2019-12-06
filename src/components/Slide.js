@@ -5,10 +5,17 @@ import styled from 'styled-components';
 const Link = styled(RouterLink)`
     text-decoration: none;
     color: steelblue;
+
+    &:hover {
+        filter: grayscale(70%);
+    }
 `;
 
-export default ({ to, children }) => (
-    <li>
+export default ({ to, children, notListItem }) =>
+    notListItem ? (
         <Link to={to}>{children}</Link>
-    </li>
-);
+    ) : (
+        <li>
+            <Link to={to}>{children}</Link>
+        </li>
+    );
