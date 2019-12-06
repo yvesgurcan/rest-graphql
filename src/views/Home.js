@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 import Container from '../components/Container';
+import Heading from '../components/Heading';
 import ReviewItem from '../components/ReviewItem';
 
 export default class Home extends Component {
