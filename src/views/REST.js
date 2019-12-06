@@ -44,9 +44,6 @@ export default class Home extends Component {
     }
 }
 
-const Heading = styled.h1`
-    text-align: center;
-`;
 
 const AnswerContainer = styled.div`
     display: flex;
