@@ -1,4 +1,4 @@
-# REST review
+# REST and GraphQL review
 
 ## Setup
 
